@@ -82,6 +82,8 @@ end
 group :development do
   gem "rdoc", "~> 4.3"
   gem "yard"
+  gem "capistrano", "~> 3.10", require: false
+  gem "capistrano-rails", "~> 1.3", require: false
 end
 
 group :test do
